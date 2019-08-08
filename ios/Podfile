@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+
+target 'MessagingApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for MessagingApp
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Core'
+
+  target 'MessagingApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MessagingAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
