@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -39,6 +40,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* MessagingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MessagingAppTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		3213AA6905354693A8012504 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5710C234064473840CED99 /* libRNVectorIcons-tvOS.a */; };
+		585C6D9E7B0A4C15B55212EF /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD590271B0D44F194269297 /* libRNFirebase.a */; };
 		74BCAC1251264AD8AF096FA5 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE9A0D51EE84EBE9DA05F0D /* libRNGestureHandler.a */; };
 		76CFEED848444753A6362570 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B31C69F30FF24D1281EEA903 /* libRNGestureHandler-tvOS.a */; };
 		7ADAEE8D12C03CEE39BDD37C /* libPods-MessagingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E21753AC21D8078EF0E3CA1 /* libPods-MessagingAppTests.a */; };
@@ -63,7 +65,6 @@
 		F5791116097043C5AC1C95E3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60A9449687164858BCA05224 /* FontAwesome.ttf */; };
 		FCEA54959053B68B1566923C /* libPods-MessagingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0BA7E2D7F9701C9FE5B8CD /* libPods-MessagingApp.a */; };
 		FF23427222C7627900FBBE18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF23427122C7627900FBBE18 /* GoogleService-Info.plist */; };
-		585C6D9E7B0A4C15B55212EF /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD590271B0D44F194269297 /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -375,6 +376,13 @@
 			remoteGlobalIDString = A39873CE1EA65EE60051E01A;
 			remoteInfo = "RNVectorIcons-tvOS";
 		};
+		FF290BEE235152670000B9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626E77648E544FCC8225B310 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -401,6 +409,7 @@
 		200EC7EC540D4269B606A3A3 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		20A752F39D04433A8B247518 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		22FA32F2BAD04EB08518C225 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		2AD590271B0D44F194269297 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MessagingApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MessagingApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MessagingApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MessagingApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -416,6 +425,7 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		60A9449687164858BCA05224 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		6254AA7DCB5F6F945053CF7E /* Pods-MessagingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingApp.debug.xcconfig"; path = "Target Support Files/Pods-MessagingApp/Pods-MessagingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		626E77648E544FCC8225B310 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		6DF1C28972F881002A3ECE04 /* Pods-MessagingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MessagingApp-tvOSTests/Pods-MessagingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7B0BA7E2D7F9701C9FE5B8CD /* libPods-MessagingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MessagingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -439,8 +449,6 @@
 		FC72D845FDA58EC25788CF70 /* libPods-MessagingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MessagingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF112A9E9F8242EE9897DFAC /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		FF23427122C7627900FBBE18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		626E77648E544FCC8225B310 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		2AD590271B0D44F194269297 /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -757,7 +765,6 @@
 				0478807300BE32DC055389F6 /* Pods-MessagingAppTests.debug.xcconfig */,
 				558F9D39193C3C0F9DE02E87 /* Pods-MessagingAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -769,6 +776,7 @@
 				ECE9A0D51EE84EBE9DA05F0D /* libRNGestureHandler.a */,
 				3B5710C234064473840CED99 /* libRNVectorIcons-tvOS.a */,
 				B31C69F30FF24D1281EEA903 /* libRNGestureHandler-tvOS.a */,
+				2AD590271B0D44F194269297 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -795,6 +803,14 @@
 			children = (
 				FF23426822C75E5500FBBE18 /* libRNGestureHandler.a */,
 				FF23426A22C75E5500FBBE18 /* libRNGestureHandler-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF290BEB235152670000B9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF290BEF235152670000B9B5 /* libRNFirebase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -961,6 +977,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = FF290BEB235152670000B9B5 /* Products */;
+					ProjectRef = 626E77648E544FCC8225B310 /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = FF23425C22C75E5500FBBE18 /* Products */;
@@ -1278,6 +1298,13 @@
 			fileType = archive.ar;
 			path = "libRNVectorIcons-tvOS.a";
 			remoteRef = FF23426F22C75E5500FBBE18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF290BEF235152670000B9B5 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = FF290BEE235152670000B9B5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
